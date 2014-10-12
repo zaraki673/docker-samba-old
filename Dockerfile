@@ -1,5 +1,5 @@
 #Samba share for Raspberry Pi
-FROM ubuntu:14:04
+FROM debian/jessie
 
 ENV DEBIAN_FRONTEND noninteractive
 
