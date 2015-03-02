@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends samba-common-bi
 ADD run.sh /run.sh
 RUN chmod u+x /run.sh
 
-EXPOSE 445
+EXPOSE 445 137 138 139
 
 ENTRYPOINT ["/run.sh"]
 CMD ["-h"]
