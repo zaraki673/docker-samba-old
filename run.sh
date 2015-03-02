@@ -102,5 +102,5 @@ EOH
   done
 
 fi
-
+nmbd -D
 exec ionice -c 3 smbd -FS --configfile="$CONFIG_FILE"
